@@ -50,7 +50,7 @@ def test():  # put application's code here
 
 @app.route('/test2')
 def test2():  # put application's code here
-    return 'Все прошло успasfasdfaf!'
+    return 'Все прошло уdsadasadsспasfasdfaf!'
 
 
 @app.teardown_appcontext

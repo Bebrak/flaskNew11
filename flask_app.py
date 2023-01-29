@@ -48,6 +48,11 @@ def kukareku():  # put application's code here
 def test():  # put application's code here
     return 'Все прошло усп!'
 
+@app.route('/test2')
+def test2():  # put application's code here
+    return 'Все прошло усп!'
+
+
 @app.teardown_appcontext
 def close_db(error):
     if hasattr(g, 'link_db'):

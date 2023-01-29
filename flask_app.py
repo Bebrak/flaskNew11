@@ -41,10 +41,12 @@ def webhook():
         return 'Сайт обновился', 200
     else:
         return 'Возникла ошибка', 400
-
+@app.route('/kukareku')
+def kukareku():  # put application's code here
+    return 'kukareku'
 @app.route('/test')
 def test():  # put application's code here
-    return 'Все прошло успешно!'
+    return 'Все прошло усп!'
 
 @app.teardown_appcontext
 def close_db(error):
